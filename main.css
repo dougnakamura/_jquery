@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(29, 29, 37, 100%);
+}
+
+h1{
+    margin-left: 500px;
+    margin-top: 200px;
+    color: #FFFDFD;
+    font-size: 48px;
+    
+}
+
+.lista{
+    
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.lista input{
+    padding: 10px;
+    height: 25px;
+    width: 348px;
+    font-size: 28px;
+    
+}
+
+button{
+width: 183px;
+height: 50px;
+color: #625F5F;
+font-size: 28px;
+font-family: Inter;
+cursor: pointer;
+
+}
+
+
+ ul li {
+    color: #FFFDFD;
+    font-size: 28px;
+    font-family: Inter;
+    text-decoration: none;
+    margin-left: 400px;
+    
+    
+    
+    
+}
+
+ul li button{
+    width: 70px;
+    height: 35px;
+    margin-left: 160px;
+    background-color: rgb(6, 243, 30,100%);
+    color: black;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+#desfazer {
+    color: #FFFDFD;
+    font-size: 28px;
+    font-family: Inter;
+    text-decoration: none;
+    margin-left: 400px;
+    text-decoration: line-through;
+}
+
+#desfazer button {
+    background-color: rgb(243, 6, 6);
+    width: 127px;
+    margin-top: 5px;
+}
