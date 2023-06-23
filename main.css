@@ -2,9 +2,26 @@ body{
     background-color: rgba(29, 29, 37, 100%);
 }
 
+
+header {
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#fechar{
+    background-color: red;
+    color: white;
+    
+}
+
+   
+
+
+
 h1{
-    margin-left: 500px;
-    margin-top: 200px;
+    margin-left: 630px;
+    margin-top: 100px;
     color: #FFFDFD;
     font-size: 48px;
     
@@ -12,7 +29,7 @@ h1{
 
 .lista{
     
-    margin-left: 400px;
+    margin-left: 500px;
     margin-top: 50px;
     border-radius: 10px;
     padding: 5px;
@@ -27,9 +44,12 @@ h1{
     
 }
 
+ 
+
+
 button{
 width: 183px;
-height: 50px;
+height: 47px;
 color: #625F5F;
 font-size: 28px;
 font-family: Inter;
@@ -39,25 +59,31 @@ cursor: pointer;
 
 
  ul li {
-    color: #FFFDFD;
-    font-size: 28px;
+    color: #faf8f8;
+    font-size: 30px;
     font-family: Inter;
     text-decoration: none;
-    margin-left: 400px;
-    
-    
-    
+    padding: 10px;
+    cursor: pointer;
     
 }
 
-ul li button{
-    width: 70px;
-    height: 35px;
-    margin-left: 160px;
-    background-color: rgb(6, 243, 30,100%);
-    color: black;
+.completed {
+    text-decoration: line-through;
+    color: gray;
     cursor: pointer;
-    font-size: 28px;
+}
+
+ul li button{
+    width: 100px;
+    height: 30px;
+    margin-left: 275px;
+    background-color: red;
+    color: rgb(248, 247, 247);
+    cursor: pointer;
+    font-size: 20px;
+
+    
 }
 
 #desfazer {
@@ -65,7 +91,7 @@ ul li button{
     font-size: 28px;
     font-family: Inter;
     text-decoration: none;
-    margin-left: 400px;
+    margin-left: 500px;
     text-decoration: line-through;
 }
 

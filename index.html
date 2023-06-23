@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Lista de tarefas </h1>
-    <div class="lista">
-        <input type="text" placeholder="Nome da tarefa">
-        <button>Adicionar</button>
-    </div>
-        <ul>
-            <li>
-                Nome da tarefa
-                <button>Feito</button>
-            </li>
-            <li id="desfazer">
-                Nome da tarefa
-                <button>Desfazer</button>
-            </li>
-        </ul>
-       
-    
+    <header>
+        <button >Tarefas</button>
+        <button id="fechar">Fechar</button>
+
+    </header>
+        <section>
+            <form>
+                <h1>Lista de tarefas </h1>
+                <div class="lista">
+                    <input type="text" id="nova-tarefa" required placeholder="Nome da tarefa">
+                    <button id="adicionartarefa">Adicionar</button>
+                    <ul id="tarefa-lista"></ul>
+                
+                </div>
+            
+        </section>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
